@@ -1,0 +1,125 @@
+/* Header */ 
+.container {
+    max-width: 1175px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: space-around;
+    width: 510px;
+}
+
+.nav_li a{
+    font-size: 16px;
+    line-height: 37px;
+    color: #303134;
+    font-weight: 600;
+    /* font-family: "Raleway"; */
+    text-align: center;
+}
+
+/* Section1 - Banner Image */
+.banner_image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner_h2{
+    font-size: 79px;
+    line-height: 53px;
+    color: #ffffff;
+}
+
+.banner_paragraph {
+    font-size: 18px;
+    line-height: 37px;
+    color: #ffffff;
+    margin-top: 55px;
+}
+
+/* Section 2 - Articles */
+.section_2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.articles_h6 {
+    font-size: 16px;
+    line-height: 37px;
+    color: #8d8d8d;
+    font-weight: 600;
+    width: 78px;
+}
+
+.articles_h4 {
+    font-size: 26px;
+    line-height: 37px;
+    color: #1a1a1b;
+    font-weight: 600;
+    width: 205px;
+}
+
+.articles_p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #8d8d8d;
+    font-weight: 500;
+    width: 235px;
+    height: 145px;
+    margin-top: 25px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.each_article {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.article_image {
+    width: 240px;
+    height: 150px;
+}
+
+.article_h5 {
+    margin-top: 17px;
+}
+
+.article_h5 a {
+    font-size: 16px;
+    line-height: 22px;
+    color: #1a1a1b;
+    font-weight: 600;
+}
+
+.article_paragraph {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8d8d8d;
+    font-weight: 500;
+    margin-top: 10px;
+}
